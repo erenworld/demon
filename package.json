@@ -1,0 +1,27 @@
+{
+  "name": "makenode",
+  "version": "1.0.0",
+  "description": "nodemon from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "makenode": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erenworld/demon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erenworld/demon/issues"
+  },
+  "homepage": "https://github.com/erenworld/demon#readme",
+  "dependencies": {
+    "chokidar": "^4.0.3"
+  }
+}
